@@ -381,6 +381,20 @@
         .guide-links { display: flex; gap: 8px; flex-wrap: wrap; }
         .guide-links .btn { font-size: 0.88rem; padding: 9px 18px; }
 
+        /* ---------- MIS MAZOS ---------- */
+        .mydeck-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px 18px;
+            list-style: none;
+            margin: 10px 0 16px;
+            font-size: 0.93rem;
+        }
+        .mydeck-list a { color: #fff; text-decoration: none; }
+        .mydeck-list a:hover { color: var(--gold); text-decoration: underline; }
+        .mydeck-list .count { color: var(--gold); font-weight: 700; }
+        .mydeck-group { color: var(--gold); font-weight: 800; font-size: 0.85rem; letter-spacing: 1px; margin-top: 10px; }
+
         /* ---------- EVENTS ---------- */
         .event-row {
             display: flex;
@@ -451,6 +465,7 @@
     <div class="nav-links">
         <a href="#tiers">Tier List</a>
         <a href="#mazos">Mazos Top</a>
+        <a href="#mis-mazos">Mis Mazos</a>
         <a href="#constructor">Constructor</a>
         <a href="#gemas">Guía de Gemas</a>
         <a href="#guias">Guías</a>
@@ -464,7 +479,7 @@
     <p>Todo para subir de rango en Yu-Gi-Oh! Duel Links: la Tier List actual, los mazos top, un constructor para armar y probar tus mazos, y la guía de gemas. Hecho por fans, sin imágenes oficiales.</p>
     <div class="stats">
         <div class="stat gold"><b>11</b><span>Arquetipos en tiers</span></div>
-        <div class="stat"><b>54</b><span>Cartas en el constructor</span></div>
+        <div class="stat"><b>103</b><span>Cartas en el constructor</span></div>
         <div class="stat gold"><b>$0</b><span>Todo gratis</span></div>
         <div class="stat"><b>100%</b><span>Sin imágenes oficiales</span></div>
     </div>
@@ -526,6 +541,66 @@
             <div class="deck-meta">Tier 3 • KC Cup DLv. Max, 14 nov 2026 • Jugador: <b>Its_Me_KangsterNatural</b> • Skill: <b>Eyes of Sovereign Defiance</b> • Costo aprox: <b>55,000 gemas + $45</b></div>
             <p>Potente pero caro: es el mazo más costoso de los recomendados. Solo conviene si ya tienes parte del motor o vas a jugarlo mucho tiempo.</p>
             <a class="btn" href="https://www.duellinksmeta.com/top-decks/kc-cup-dlv.-max/november-2026/snake-eye/its_me_kangsternatural%F0%9F%93%B7%E2%AD%90/90PM2" target="_blank" rel="noopener">Ver este mazo en DLM →</a>
+        </div>
+        <div class="deck-card">
+            <h3><i class="fas fa-shield-halved"></i> Centur-Ion</h3>
+            <div class="deck-meta">Tier 1 • KC Cup DLv. Max, 8 nov 2026 • Jugador: <b>itachi10</b> • Skill: <b>The Courage to Rise</b> • Costo aprox: <b>47,000 gemas + $146</b></div>
+            <p>El otro Tier 1 del formato: control con sincronías, difícil de tumbar y con mucho recurso. Caro, pero es de lo más fuerte que hay ahorita.</p>
+            <a class="btn" href="https://www.duellinksmeta.com/top-decks/kc-cup-dlv.-max/november-2026/centur-ion/itachi10/BqJp1" target="_blank" rel="noopener">Ver este mazo en DLM →</a>
+        </div>
+        <div class="deck-card">
+            <h3><i class="fas fa-hat-wizard"></i> Dark Magician</h3>
+            <div class="deck-meta">Tier 2 • KC Cup DLv. Max, 14 nov 2026 • Jugador: <b>skyofsilence</b> • Skill: <b>The Eye of the United Dragon</b> • Costo aprox: <b>48,000 gemas + $45</b></div>
+            <p>El clásico que nunca muere: Dark Magician con su círculo y sus trampas. Fuerte en el meta actual y con mucho soporte.</p>
+            <a class="btn" href="https://www.duellinksmeta.com/top-decks/kc-cup-dlv.-max/november-2026/dark-magician/skyofsilence/XXuVg" target="_blank" rel="noopener">Ver este mazo en DLM →</a>
+        </div>
+        <div class="deck-card">
+            <h3><i class="fas fa-dragon"></i> Branded</h3>
+            <div class="deck-meta">Tier 3 • KC Cup DLv. Max, 11 nov 2026 • Jugador: <b>Paulo19013</b> • Skill: <b>Beasts from the Abyss</b> • Costo aprox: <b>40,500 gemas</b></div>
+            <p>Fusiones de Albaz con Mirrorjade: un mazo que castiga al rival con cada fusión. De los más baratos de los top.</p>
+            <a class="btn" href="https://www.duellinksmeta.com/top-decks/kc-cup-dlv.-max/november-2026/branded/paulo19013/oujVk" target="_blank" rel="noopener">Ver este mazo en DLM →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============ MIS MAZOS ============ -->
+<section id="mis-mazos">
+    <h2 class="section-title"><i class="fas fa-user"></i> Mis Mazos</h2>
+    <p class="section-sub">Los mazos de VampySec, armados a mano. Pica el nombre de cualquier carta para verla en su página oficial, y carga el mazo directo en el constructor para probarlo.</p>
+    <div class="grid">
+        <div class="deck-card">
+            <h3><i class="fas fa-ghost"></i> Vampiros Zombie</h3>
+            <div class="deck-meta">23 cartas • Skill sugerida: <b>Sealed Tombs</b> • Arquetipo: Vampiro / Zombie</div>
+            <p>Control Zombie con motor Vampiro: Vampire Sorcerer busca el Reino, los Vampiros roban vida y reviven, y el cementerio trabaja para ti con Gozuki, Mezuki y Zombie Master. Sealed Tombs frena los cementerios rivales.</p>
+            <div class="mydeck-group">MONSTRUOS (16)</div>
+            <ul class="mydeck-list">
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Sorcerer" target="_blank" rel="noopener">Vampire Sorcerer</a> <span class="count">x3</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Vamp" target="_blank" rel="noopener">Vampire Vamp</a> <span class="count">x2</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Lord" target="_blank" rel="noopener">Vampire Lord</a> <span class="count">x2</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Grace" target="_blank" rel="noopener">Vampire Grace</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Duke" target="_blank" rel="noopener">Vampire Duke</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Retainer" target="_blank" rel="noopener">Vampire Retainer</a> <span class="count">x2</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Familiar" target="_blank" rel="noopener">Vampire Familiar</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Gozuki" target="_blank" rel="noopener">Gozuki</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Mezuki" target="_blank" rel="noopener">Mezuki</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Zombie%20Master" target="_blank" rel="noopener">Zombie Master</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Uni-Zombie" target="_blank" rel="noopener">Uni-Zombie</a> <span class="count">x1</span></li>
+            </ul>
+            <div class="mydeck-group">MÁGICAS (5)</div>
+            <ul class="mydeck-list">
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Kingdom" target="_blank" rel="noopener">Vampire Kingdom</a> <span class="count">x2</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%27s%20Domain" target="_blank" rel="noopener">Vampire's Domain</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Book%20of%20Life" target="_blank" rel="noopener">Book of Life</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Monster%20Reborn" target="_blank" rel="noopener">Monster Reborn</a> <span class="count">x1</span></li>
+            </ul>
+            <div class="mydeck-group">TRAMPAS (2)</div>
+            <ul class="mydeck-list">
+                <li><a href="https://www.duellinksmeta.com/cards/Vampire%20Awakening" target="_blank" rel="noopener">Vampire Awakening</a> <span class="count">x1</span></li>
+                <li><a href="https://www.duellinksmeta.com/cards/Treacherous%20Trap%20Hole" target="_blank" rel="noopener">Treacherous Trap Hole</a> <span class="count">x1</span></li>
+            </ul>
+            <div class="guide-links">
+                <button class="btn" id="btn-load-vampire">Cargar en el constructor</button>
+            </div>
         </div>
     </div>
 </section>
@@ -726,7 +801,61 @@ const CARDS = [
     { n: "Treacherous Trap Hole", k: "Trap", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "SR" },
     { n: "Drowning Mirror Force", k: "Trap", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "UR" },
     { n: "Paleozoic Canadia", k: "Trap", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "UR" },
-    { n: "Fiendish Chain", k: "Trap", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "UR" }
+    { n: "Fiendish Chain", k: "Trap", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "UR" },
+    // --- Vampiros ---
+    { n: "Vampire Lord", k: "Monster", t: "Zombie", a: "DARK", l: 5, atk: 2000, def: 1500, r: "UR" },
+    { n: "Vampire Vamp", k: "Monster", t: "Zombie", a: "DARK", l: 6, atk: 2000, def: 2000, r: "UR" },
+    { n: "Vampire Sorcerer", k: "Monster", t: "Zombie", a: "DARK", l: 4, atk: 1500, def: 1500, r: "SR" },
+    { n: "Vampire Grace", k: "Monster", t: "Zombie", a: "DARK", l: 6, atk: 2000, def: 1600, r: "SR" },
+    { n: "Vampire Duke", k: "Monster", t: "Zombie", a: "DARK", l: 6, atk: 2000, def: 1000, r: "SR" },
+    { n: "Vampire's Curse", k: "Monster", t: "Zombie", a: "DARK", l: 6, atk: 2000, def: 800, r: "SR" },
+    { n: "Vampire Retainer", k: "Monster", t: "Zombie", a: "DARK", l: 4, atk: 1200, def: 800, r: "SR" },
+    { n: "Vampire Familiar", k: "Monster", t: "Zombie", a: "DARK", l: 2, atk: 500, def: 500, r: "R" },
+    { n: "Shadow Vampire", k: "Monster", t: "Zombie", a: "DARK", l: 4, atk: 2000, def: 0, r: "UR" },
+    { n: "Vampire's Desire", k: "Spell", t: "Quick-Play", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Vampire Kingdom", k: "Spell", t: "Field", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Vampire's Domain", k: "Spell", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "R" },
+    { n: "Vampire Awakening", k: "Trap", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Vampire Takeover", k: "Trap", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    // --- Zombies ---
+    { n: "Gozuki", k: "Monster", t: "Zombie", a: "EARTH", l: 4, atk: 1700, def: 800, r: "SR" },
+    { n: "Mezuki", k: "Monster", t: "Zombie", a: "DARK", l: 4, atk: 1700, def: 1000, r: "UR" },
+    { n: "Zombie Master", k: "Monster", t: "Zombie", a: "DARK", l: 4, atk: 1800, def: 0, r: "SR" },
+    { n: "Uni-Zombie", k: "Monster", t: "Zombie", a: "DARK", l: 3, atk: 1300, def: 0, r: "UR" },
+    { n: "Goblin Zombie", k: "Monster", t: "Zombie", a: "DARK", l: 4, atk: 1100, def: 1050, r: "R" },
+    { n: "Plaguespreader Zombie", k: "Monster", t: "Zombie / Tuner", a: "DARK", l: 2, atk: 400, def: 200, r: "SR" },
+    { n: "Doomking Balerdroch", k: "Monster", t: "Zombie", a: "DARK", l: 8, atk: 2800, def: 2000, r: "UR" },
+    { n: "Samurai Skull", k: "Monster", t: "Zombie", a: "EARTH", l: 3, atk: 1200, def: 0, r: "R" },
+    { n: "Pyramid Turtle", k: "Monster", t: "Zombie", a: "EARTH", l: 4, atk: 1200, def: 1400, r: "R" },
+    { n: "Zombie World", k: "Spell", t: "Field", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Book of Life", k: "Spell", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Call of the Mummy", k: "Spell", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "R" },
+    // --- Shiranui ---
+    { n: "Shiranui Solitaire", k: "Monster", t: "Zombie / Tuner", a: "FIRE", l: 4, atk: 500, def: 0, r: "SR" },
+    { n: "Shiranui Spectralsword", k: "Monster", t: "Zombie / Tuner", a: "FIRE", l: 2, atk: 0, def: 1400, r: "SR" },
+    { n: "Shiranui Samurai", k: "Monster", t: "Zombie", a: "FIRE", l: 4, atk: 1800, def: 1000, r: "R" },
+    { n: "Shiranui Spiritmaster", k: "Monster", t: "Zombie", a: "FIRE", l: 4, atk: 1500, def: 0, r: "R" },
+    { n: "Shiranui Sunsaga", k: "Monster", t: "Zombie / Synchro", a: "FIRE", l: 10, atk: 3500, def: 3000, r: "UR" },
+    { n: "Shiranui Shogunsaga", k: "Monster", t: "Zombie / Synchro", a: "FIRE", l: 8, atk: 3000, def: 1500, r: "UR" },
+    { n: "Shiranui Style Swallow's Slash", k: "Trap", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "R" },
+    { n: "Shiranui Style Synthesis", k: "Trap", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "R" },
+    // --- Branded ---
+    { n: "Fallen of Albaz", k: "Monster", t: "Dragon", a: "DARK", l: 4, atk: 1800, def: 0, r: "UR" },
+    { n: "Aluber the Jester of Despia", k: "Monster", t: "Fairy", a: "DARK", l: 4, atk: 1800, def: 0, r: "SR" },
+    { n: "Dramaturge of Despia", k: "Monster", t: "Fairy", a: "DARK", l: 4, atk: 1500, def: 1500, r: "R" },
+    { n: "Mirrorjade the Iceblade Dragon", k: "Monster", t: "Dragon / Fusion", a: "DARK", l: 8, atk: 3000, def: 2500, r: "UR" },
+    { n: "Lubellion the Searing Dragon", k: "Monster", t: "Dragon / Fusion", a: "DARK", l: 8, atk: 2500, def: 3000, r: "UR" },
+    { n: "Branded Fusion", k: "Spell", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "UR" },
+    { n: "Branded Opening", k: "Spell", t: "Quick-Play", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Branded in Red", k: "Spell", t: "Quick-Play", a: "", l: 0, atk: 0, def: 0, r: "R" },
+    // --- Soporte Dark Magician ---
+    { n: "Magician of Dark Illusion", k: "Monster", t: "Spellcaster", a: "DARK", l: 7, atk: 2100, def: 1400, r: "UR" },
+    { n: "Illusion of Chaos", k: "Monster", t: "Spellcaster", a: "DARK", l: 7, atk: 2100, def: 2400, r: "UR" },
+    { n: "Magicians' Souls", k: "Monster", t: "Spellcaster", a: "DARK", l: 1, atk: 0, def: 0, r: "UR" },
+    { n: "Dark Magician of Chaos", k: "Monster", t: "Spellcaster", a: "DARK", l: 8, atk: 2800, def: 2600, r: "UR" },
+    { n: "Dark Magic Inheritance", k: "Spell", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "SR" },
+    { n: "Eternal Soul", k: "Trap", t: "Continuous", a: "", l: 0, atk: 0, def: 0, r: "UR" },
+    { n: "Magician's Navigation", k: "Trap", t: "Normal", a: "", l: 0, atk: 0, def: 0, r: "SR" }
 ];
 
 const EXAMPLE_DECK = [
@@ -734,6 +863,15 @@ const EXAMPLE_DECK = [
     ["Dark Magician Girl", 1], ["Dark Magical Circle", 3], ["Dark Magic Attack", 2],
     ["Eye of Timaeus", 2], ["Monster Reborn", 1], ["Cosmic Cyclone", 1],
     ["Book of Moon", 1], ["Paleozoic Canadia", 2], ["Treacherous Trap Hole", 1]
+];
+
+const VAMPIRE_DECK = [
+    ["Vampire Sorcerer", 3], ["Vampire Vamp", 2], ["Vampire Lord", 2],
+    ["Vampire Grace", 1], ["Vampire Duke", 1], ["Vampire Retainer", 2],
+    ["Vampire Familiar", 1], ["Gozuki", 1], ["Mezuki", 1],
+    ["Zombie Master", 1], ["Uni-Zombie", 1], ["Vampire Kingdom", 2],
+    ["Vampire's Domain", 1], ["Book of Life", 1], ["Monster Reborn", 1],
+    ["Vampire Awakening", 1], ["Treacherous Trap Hole", 1]
 ];
 
 const DLM_CARD = "https://www.duellinksmeta.com/cards/";
@@ -843,6 +981,14 @@ document.getElementById("btn-example").addEventListener("click", () => {
     EXAMPLE_DECK.forEach(([name, count]) => { deck[name] = count; });
     renderDeck();
     document.getElementById("hand").innerHTML = "";
+});
+
+document.getElementById("btn-load-vampire").addEventListener("click", () => {
+    deck = {};
+    VAMPIRE_DECK.forEach(([name, count]) => { deck[name] = count; });
+    renderDeck();
+    document.getElementById("hand").innerHTML = "";
+    document.getElementById("constructor").scrollIntoView({ behavior: "smooth" });
 });
 
 document.getElementById("btn-draw").addEventListener("click", drawHand);
